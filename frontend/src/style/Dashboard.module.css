@@ -1,0 +1,53 @@
+/* src/style/Dashboard.module.css */
+
+.container {
+  max-width: 600px;
+  margin: 3rem auto;
+  background: var(--brand-white);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 85, 204, 0.2);
+  color: var(--brand-dark-blue);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--brand-blue);
+  margin-bottom: 1.5rem;
+}
+
+.info {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.logoutBtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.logoutBtn:hover {
+  background-color: #a71d2a;
+}
+
+.hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.enrollmentCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #f9faff;
+}

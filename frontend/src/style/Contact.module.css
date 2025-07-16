@@ -1,0 +1,85 @@
+.container {
+  max-width: 700px;
+  margin: 3rem auto;
+  background: var(--brand-white);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 85, 204, 0.2);
+  color: var(--brand-dark-blue);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--brand-blue);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--brand-blue);
+  border-radius: 6px;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--brand-dark-blue);
+  box-shadow: 0 0 5px var(--brand-blue);
+}
+
+.button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: var(--brand-blue);
+  color: var(--brand-white);
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.button:hover {
+  background-color: var(--brand-dark-blue);
+}
+
+.statusMessage {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--brand-dark-blue);
+}
+
+.contactInfo {
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.mapContainer {
+  margin-top: 1rem;
+}
+
+@media (max-width: 700px) {
+  .container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  iframe {
+    height: 300px !important;
+    width: 100% !important;
+  }
+}

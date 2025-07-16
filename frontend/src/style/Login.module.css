@@ -1,0 +1,62 @@
+.container {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #f0f8ff; /* light blue */
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+  color: #003366; /* dark blue */
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #007bff; /* brand blue */
+  text-align: center;
+}
+
+.message {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1.5px solid #007bff;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 6px #66a3ff;
+}
+
+.button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
